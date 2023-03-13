@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin:  0;
+    background-image: url(https://img.freepik.com/foto-gratis/estudiantes-aprendiendo-escuela-su-salon-clases_23-2149511025.jpg?w=2000);
+    font-family: Times;
+    font-size: 24px;
+    opacity: 95%;
+    color:  white;
+}
+
+h1,p{
+    margin: 1.5rem auto;
+    text-align: center;
+    color: #000000;
+    border: 1px hidden white;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 550px;
+    min-width: 400px;
+    width: 55vw;
+    padding-bottom: 1em;
+}
+
+.margin{
+    width:  300%;
+    background-color:   #4C4D54;
+    margin-left:    auto;
+    margin-right:   auto;
+    padding:    20px;
+    max-width:  580px;
+}
+
+fieldset{
+    border: none;
+    padding: 0.5rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type{
+    border-bottom: none;
+}
+input,textarea,select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 2em;
+    max-height: 50em;
+}
+
+input,textarea{
+    background-color: #0a0a23;
+    border: 1px hidden #0a0a23;
+    color: #ffffff;
+    min-height: 2em;
+    max-height: 50em;
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"]{
+    display: block; 
+    width: 90%;
+    min-width: 300px;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: white;
+    border-color: #000000;
+    color:#000000;
+    border: 1px hidden;
+}
+
+
+a{
+    color: #dfdfe2;
+}
